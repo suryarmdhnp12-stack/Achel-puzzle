@@ -1,0 +1,22 @@
+puzzle-cinta/
+├── src/
+│   ├── app/
+│   │   ├── globals.css
+│   │   ├── layout.jsx
+│   │   ├── page.jsx
+│   │   └── room/
+│   │       └── [roomId]/
+│   │           └── page.jsx
+│   ├── components/
+│   │   ├── BackgroundMusic.jsx
+│   │   ├── PuzzleGame.jsx
+│   │   └── PuzzlePhotoUploader.jsx
+│   └── lib/
+│       ├── heartConfetti.js
+│       ├── room.js
+│       ├── soundEffects.js
+│       └── supabase.js
+├── .gitignore
+├── package.json
+├── postcss.config.mjs
+└── tailwind.config.mjs
